@@ -4,6 +4,12 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="Style/contact_style.css" />
+    <link rel="stylesheet" href="Style/topnav.css" />
+    <!-- google font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fasthand&family=Lobster&display=swap" rel="stylesheet">
+    <!-- end -->
     <script
       src="https://kit.fontawesome.com/3b06f5de5f.js"
       crossorigin="anonymous"
@@ -17,19 +23,19 @@
       <a href="/about.html">About Me</a>
       <a href="/qa.html">Qualification</a>
       <a href="/skills.html">Skills Matrix</a>
-      <a href="/os.html">OS and IDEs</a>
-      <a href="/pl.html">Programming languages</a>
+      <a href="/os.html">OS, IDEs and Programming Languages</a>
       <a href="/contact.html" class="active">Contact me</a>
       <a href="javascript:void(0);" class="icon" onclick="navbar()">
-        <i class="fa-solid fa-bars"></i>
+        <i class="fa-sharp fa-solid fa-bars"></i>
       </a>
     </div>
 
     <div class="body">
       <div class="container">
-        <h1 class="form-title">Contact Me</h1>
-        <form action="#">
+        <h1 class="heading">Keep in touch with me...</h1>
+        <form action="https://formsubmit.co/kurtadriaanse18@gmail.com" method="POST">
           <div class="main-user-info">
+            <input type="hidden" name="_subject" value="New Email from your personal profile!!!!!">
             <div class="user-input-box">
               <label for="firstname">Firstname*</label>
               <input
@@ -61,10 +67,9 @@
                 placeholder="Company Name"
               />
             </div>
-            <div class="user-input-box">
+            <div class="msg-box">
               <label for="message">Message*</label>
-              <textarea name="message" rows="10" cols="30">
-              Enter message
+              <textarea name="message" style="width: 100%; height: 100px;">       
             </textarea
               >
             </div>
