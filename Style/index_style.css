@@ -30,6 +30,10 @@ body {
   .topnav a.active {
     background-color: #04AA6D;
     color: white;
+    .header a.logo {
+      font-size: 25px;
+      font-weight: bold;
+    }
   }
   
   /* Hide the link that should open and close the topnav on small screens */
@@ -57,4 +61,15 @@ body {
       display: block;
       text-align: left;
     }
+    
+  }
+
+
+  /*end of topnav*/
+
+  /*Heading*/
+  .heading {
+    font-family: 'Fasthand', cursive;
+    font-family: 'Lobster', cursive;
+    text-align: center;
   }
