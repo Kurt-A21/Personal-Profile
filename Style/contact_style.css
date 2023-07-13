@@ -1,6 +1,15 @@
+.heading{
+  padding:15px;
+  padding-top: 50px;
+  text-align:center;
+  font-family: 'Fasthand', cursive;
+  font-family: 'Lobster', cursive;
+  text-align: center;
+}
+
 .body{
   display: flex;
-  height: 100vh;
+  height: 70vh;
   justify-content: center;
   align-items: center;
 
@@ -15,12 +24,6 @@
   border-radius: 10px;
   box-shadow: inset -2px 2px 2px white;
   box-sizing: border-box;
-}
-
-.heading{
-  font-family: 'Fasthand', cursive;
-  font-family: 'Lobster', cursive;
-  text-align: center;
 }
 
 .main-user-info{
@@ -47,6 +50,7 @@
   font-size: 20px;
   font-weight: 400;
   margin: 5px 0;
+  text-align: center;
 }
 
 .user-input-box input{
@@ -83,13 +87,12 @@
 }
 
 .form-submit-btn {
-  margin-top: 40px;
+  margin-top: 30px;
 }
 
 .form-submit-btn input {
   cursor: pointer;
   display: flex;
-  width: 100%;
   margin-top: 10px;
   font-size: 20px;
   padding: 10px;
