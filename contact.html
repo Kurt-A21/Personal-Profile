@@ -5,6 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="Style/contact_style.css" />
     <link rel="stylesheet" href="Style/topnav.css" />
+    <link rel="stylesheet" href="Style/footer.css" />
+
     <!-- google font -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -13,11 +15,12 @@
       rel="stylesheet"
     />
     <!-- end -->
-    <script
-      src="https://kit.fontawesome.com/3b06f5de5f.js"
-      crossorigin="anonymous"
-    ></script>
+
+    <!-- font awesome -->
+    <link rel="stylesheet" href="fonts/css/all.css" />
+    <!-- font end -->
     <title>Contact me</title>
+    <link rel="icon" type="image/x-icon" href="/images/letter-k.png" />
   </head>
 
   <body>
@@ -31,69 +34,110 @@
         <i class="fa-sharp fa-solid fa-bars"></i>
       </a>
     </div>
+    <div class="container">
+      <div class="heading">
+        <h1 class="heading">Keep in touch with me...</h1>
+      </div>
 
-    <div class="heading">
-      <h1 class="heading">Keep in touch with me...</h1>
-    </div>
-
-    <div class="body">
-      <div class="container">
-        <form
-          action="https://formsubmit.co/kurtadriaanse18@gmail.com"
-          method="POST"
-        >
-          <div class="main-user-info">
-            <input
-              type="hidden"
-              name="_subject"
-              value="New Email from your personal profile!!!!!"
-            />
-            <div class="user-input-box">
-              <label for="firstname">Firstname*</label>
+      <div class="form-body">
+        <div class="form">
+          <form
+            action="https://formsubmit.co/kurtadriaanse18@gmail.com"
+            method="POST"
+          >
+            <div class="main-user-info">
               <input
-                type="text"
-                id="firstname"
-                name="firstname"
-                placeholder="Enter first name"
+                type="hidden"
+                name="_subject"
+                value="New Email from your personal profile!!!!!"
               />
+              <input type="hidden" name="_captcha" value="false" />
+              <div class="user-input-box">
+                <label for="firstname">Firstname*</label>
+                <input
+                  type="text"
+                  id="firstname"
+                  name="Firstname"
+                  placeholder="Enter first name"
+                />
+              </div>
+              <div class="user-input-box">
+                <label for="surname">Surname*</label>
+                <input
+                  type="text"
+                  id="surname"
+                  name="Surname"
+                  placeholder="Enter Surname"
+                />
+              </div>
+              <div class="user-input-box">
+                <label for="email">Email Address*</label>
+                <input
+                  type="text"
+                  id="email"
+                  name="email"
+                  placeholder="Email"
+                />
+              </div>
+              <div class="user-input-box">
+                <label for="company">Company*</label>
+                <input
+                  type="text"
+                  id="company"
+                  name="Company"
+                  placeholder="Company Name"
+                />
+              </div>
+              <div class="msg-box">
+                <label for="message">Message*</label>
+                <textarea name="Message" style="width: 100%; height: 100px">
+                </textarea>
+              </div>
             </div>
-            <div class="user-input-box">
-              <label for="surname">Surname*</label>
-              <input
-                type="text"
-                id="surname"
-                name="surname"
-                placeholder="Enter Surname"
-              />
+            <div class="form-submit-btn">
+              <input type="submit" value="Send" />
             </div>
-            <div class="user-input-box">
-              <label for="email">Email Address*</label>
-              <input type="text" id="email" name="email" placeholder="Email" />
-            </div>
-            <div class="user-input-box">
-              <label for="company">Company*</label>
-              <input
-                type="text"
-                id="company"
-                name="company"
-                placeholder="Company Name"
-              />
-            </div>
-            <div class="msg-box">
-              <label for="message">Message*</label>
-              <textarea name="message" style="width: 100%; height: 100px">
-              </textarea>
-            </div>
-          </div>
-          <div class="form-submit-btn">
-            <input type="submit" value="Send" />
-          </div>
-        </form>
+          </form>
+        </div>
       </div>
     </div>
 
-    <div class="footer">
-    </div>
+    <footer>
+      <p>© 2023 Kurt Adriaanse. All Rights Reserved.</p>
+
+      <div id="wrapper">
+        <div class="wrapper">
+          <div class="button">
+            <div class="icon">
+              <a
+                href="https://www.linkedin.com/feed/?trk=homepage-basic_google-one-tap-submit"
+              >
+                <i class="fab fa-2x fa-linkedin"></i
+              ></a>
+            </div>
+            <span>Linkdin</span>
+          </div>
+
+          <div class="button">
+            <div class="icon">
+              <a href="https://github.com/Kurt-A21">
+                <i class="fab fa-2x fa-github"></i
+              ></a>
+            </div>
+            <span>GIthub</span>
+          </div>
+
+          <div class="button">
+            <div class="icon">
+              <a href="https://padlet.com/ict0211/kurtsprojects">
+                <i class="fas fa-hat-wizard"></i
+              ></a>
+            </div>
+            <span>Padlet</span>
+          </div>
+        </div>
+      </div>
+    </footer>
 
     <script src="Script/topnav_functionality.js"></script>
   </body>
