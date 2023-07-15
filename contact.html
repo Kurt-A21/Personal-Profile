@@ -24,16 +24,26 @@
   </head>
 
   <body>
-    <div class="topnav" id="myTopNav">
-      <a href="/index.html">Crafting My<br />Professional Narrative</a>
-      <a href="/qa.html">Qualification</a>
-      <a href="/skills.html">Skills Matrix</a>
-      <a href="/os.html">OS, IDEs and Programming Languages</a>
-      <a href="/contact.html" class="active">Contact me</a>
-      <a href="javascript:void(0);" class="icon" onclick="navbar()">
-        <i class="fa-sharp fa-solid fa-bars"></i>
-      </a>
-    </div>
+    <nav>
+      <div class="navbar">
+        <a class="logo" href="/index.html">Crafting My<br />Professional Narrative</a>
+
+        <ul class="menu">
+          <li><a href="/qa.html" id="justify">Qualification</a></li>
+          <li><a href="/os.html">OS, IDEs and Programming Languages</a></li>
+          <li><a href="/skills.html">Skills Matrix</a></li>
+          <li><a href="/contact.html">Contact me</a></li>
+        </ul>
+
+        <div class="menu-icon">
+          <a href="javascript:void(0);" class="icon" onclick="navbar()">
+            <i class="fa-sharp fa-solid fa-bars"></i>
+          </a>
+
+        </div>
+      </div>
+    </nav>
+
     <div class="container">
       <div class="heading">
         <h1 class="heading">Keep in touch with me...</h1>
@@ -90,7 +100,7 @@
               </div>
               <div class="msg-box">
                 <label for="message">Message*</label>
-                <textarea name="Message" style="width: 100%; height: 100px">
+                <textarea name="Message" id="msg" style="width: 100%; height: 100px" required>
                 </textarea>
               </div>
             </div>
@@ -101,6 +111,8 @@
         </div>
       </div>
     </div>
+
+    <br>
 
     <footer>
       <p>© 2023 Kurt Adriaanse. All Rights Reserved.</p>
@@ -115,7 +127,7 @@
                 <i class="fab fa-2x fa-linkedin"></i
               ></a>
             </div>
-            <span>Linkdin</span>
+            <span>LinkdIn</span>
           </div>
 
           <div class="button">
@@ -124,7 +136,7 @@
                 <i class="fab fa-2x fa-github"></i
               ></a>
             </div>
-            <span>GIthub</span>
+            <span>Github</span>
           </div>
 
           <div class="button">

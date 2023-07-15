@@ -1,23 +1,21 @@
-.heading{
-  padding:15px;
+.heading {
   padding-top: 50px;
-  text-align:center;
-  font-family: 'Fasthand', cursive;
-  font-family: 'Lobster', cursive;
+  font-family: "Fasthand", cursive;
+  font-family: "Lobster", cursive;
   text-align: center;
 }
 
-.form-body{
+.form-body {
   display: flex;
   height: 70vh;
   justify-content: center;
   align-items: center;
 }
 
-.form{
+.form {
   width: 100%;
   max-width: 650px;
-  background: rgba(0,0,0,0.5);
+  background: rgba(0, 0, 0, 0.5);
   padding: 28px;
   margin: 0 28px;
   border-radius: 10px;
@@ -25,25 +23,25 @@
   box-sizing: border-box;
 }
 
-.main-user-info{
+.main-user-info {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
   padding: 20px 0;
 }
 
-.user-input-box:nth-child(2n){
+.user-input-box:nth-child(2n) {
   justify-content: end;
 }
 
-.user-input-box{
+.user-input-box {
   display: flex;
   flex-wrap: wrap;
   width: 50%;
   padding-bottom: 15px;
 }
 
-.user-input-box label{
+.user-input-box label {
   width: 95%;
   color: white;
   font-size: 20px;
@@ -52,7 +50,7 @@
   text-align: center;
 }
 
-.user-input-box input{
+.user-input-box input {
   height: 40px;
   width: 95%;
   border-radius: 7px;
@@ -76,13 +74,19 @@
   font-weight: 400;
   margin: 5px 0;
 }
-.msg-box textarea{
+.msg-box #msg {
   height: 40px;
   width: 100%;
   border-radius: 10px;
   outline: none;
   border: 1px solid grey;
-  padding: 0 10px;
+  padding: 0;
+  text-decoration: none;
+  display: inline-block;
+  transition-duration: 0.5s;
+  background-color: white;
+  color: black;
+  border: 2px solid rgb(12, 12, 11);
 }
 
 .form-submit-btn {
@@ -98,21 +102,21 @@
   padding: 10px;
   border: none;
   border-radius: 3px;
-  color: rgba(209,209,209);
+  color: rgba(209, 209, 209);
   background: rgba(63, 114, 76, 0.7);
 }
 
 .form-submit-btn input:hover {
-  background: rgba(56,204,93,0.7);
-  color: rgb(255,255,255)
+  background: rgba(56, 204, 93, 0.7);
+  color: rgb(255, 255, 255);
 }
 
-@media(max-width: 600px) {
-  .form{
+@media (max-width: 600px) {
+  .form {
     min-width: 200px;
   }
 
-  .user-input-box{
+  .user-input-box {
     margin-bottom: 12px;
     width: 100%;
   }
@@ -130,4 +134,3 @@
     width: 0;
   }
 }
-
