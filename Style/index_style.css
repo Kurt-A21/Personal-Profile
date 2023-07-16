@@ -1,7 +1,60 @@
+.background-img{
+  background-image: url("/images/background-effect.png");
+  height: 100%;
+  width: 100%;
+}
+
 /*Heading*/
+.heading {
+  padding-top: 50px;
+  float: left;
+  text-align: left;
+  padding-top: 150px;
+  padding-left: 20px;
+  color: black;
+}
+
+.home-content {
+  height: 100vh;
+  color: #fff;
+}
+
+.image-container {
+  /* position: relative; */
+  overflow: hidden;
+}
+
+.person-image {
+  float: right;
+  max-width: 100%;
+  height: 570px;
+  transition: transform 0.8s ease;
+}
+
+.person-image:hover {
+  transform: translateX(-20%);
+}
+
+.heading h1 {
+  font-size: 48px;
+  margin-bottom: 20px;
+}
+
+.heading h1 span {
+  color: orange;
+}
+
+.heading p {
+  font-size: 24px;
+  margin-bottom: 30px;
+}
+
+@media (max-width: 1200px) {
   .heading {
-    padding-top: 50px;
-    font-family: 'Fasthand', cursive;
-    font-family: 'Lobster', cursive;
     text-align: center;
   }
+
+  .person-image {
+    display: none;
+  }
+}

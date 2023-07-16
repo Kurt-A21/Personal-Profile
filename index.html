@@ -6,6 +6,7 @@
     <link rel="stylesheet" href="Style/index_style.css" />
     <link rel="stylesheet" href="Style/topnav.css" />
     <link rel="stylesheet" href="Style/footer.css" />
+    <link rel="stylesheet" href="Style/about-style.css" />
 
     <!-- google font -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -29,119 +30,146 @@
   </head>
 
   <body>
-    <nav>
-      <div class="navbar">
-        <a class="logo" href="/index.html"
-          >Crafting My<br />Professional Narrative</a
-        >
+        
+          <nav>
+            <div class="navbar">
+              <a class="logo" href="#"
+                ><strong>Crafting My<br />Professional Narrative</strong></a
+              >
 
-        <ul class="menu">
-          <li><a href="/qa.html" id="justify">Qualification</a></li>
-          <li><a href="/os.html">OS, IDEs and Programming Languages</a></li>
-          <li><a href="/skills.html">Skills Matrix</a></li>
-          <li><a href="/contact.html">Contact me</a></li>
-        </ul>
+              <ul class="menu">
+                <li><a href="/qa.html" id="justify">Qualification</a></li>
+                <li><a href="/os.html">OS, IDEs and Programming Languages</a></li>
+                <li><a href="/skills.html">Skills Matrix</a></li>
+                <li><a href="/contact.html">Contact me</a></li>
+              </ul>
 
-        <div class="menu-icon">
-          <a href="javascript:void(0);" class="icon" onclick="navbar()">
-            <i class="fa-sharp fa-solid fa-bars"></i>
+              <div id="myNav" class="overlay">
+                <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">
+                  <i class="fa-solid fa-x"></i
+                ></a>
+                <div class="overlay-content">
+                  <a href="/index.html">About</a>
+                  <a href="/qa.html">Qualification</a>
+                  <a href="/os.html">OS, IDEs and Programming Languages</a>
+                  <a href="/skills.html">Skills Matrix</a>
+                  <a href="/contact.html">Contact me</a>
+                </div>
+              </div>
+
+              <div class="menu-icon">
+                <a href="javascript:void(0);" class="icon" onclick="openNav()">
+                  <i class="fa-sharp fa-solid fa-bars"></i>
+                </a>
+              </div>
+            </div>
+          </nav>
+        <div class="background-img">
+              <div class="home-content">
+                <div class="heading">
+                  <p>Graduate Software Developer</p>
+                  <h1><strong>Hi, I'm Kurt <span>Adriaanse</span></strong></h1>
+                </div>
+                <div class="image-container">
+                  <img class="person-image" src="/images/IMG_20230324_143942_439_2-removebg-preview.png ">
+                </div>
+              </div>
+        </div>
+    
+        <!-- about section -->
+          <div class="about-img">
+            <img src="/images/rsz_1kurt_adriaanse_picture.jpg">
+          </div>
+          <div class="about">
+            <h2>About</h2>
+            <p>
+              I'm a tech enthusiast, a web and software developer with a passion
+              for exploring new programming languages and technologies. With two
+              years of experience under my belt, I've got my hands on a wide
+              range of tech skills, including SQL, HTML, CSS, JavaScript,
+              Python, Data Analyst, and Git. I'm always on the lookout for new
+              and exciting tools and techniques to sharpen my programming
+              expertise. While my core programming skills lie in SQL, HTML, CSS,
+              JavaScript, Python, Data Analyst, and Git, I'm also diving
+              headfirst into learning Java and Angular. I believe that staying
+              up-to-date with the latest trends and best practices is key to
+              staying ahead in the tech world. My enthusiasm for learning is
+              driven by my eagerness to expand my knowledge and hone my
+              programming skills. Starting my career as a Junior IT Associate
+              and System Administration intern at CapaCiti, which is now known
+              as UVU Africa, I gained valuable experience in development,
+              troubleshooting, and system administration. My work there helped
+              me understand the importance of being a team player,
+              communication, and problem-solving. I take pride in the skills
+              I've acquired, and I always strive to continue learning and
+              expanding my knowledge base. I believe that my love for technology
+              is reflected in my work, and I'm excited to continue learning and
+              growing in this ever-evolving field.
+            </p>
+          </div>
+
+
+        <div class="nxt-btn">
+          <a href="qa.html">
+            <button><i class="fa-solid fa-forward"></i></button>
           </a>
         </div>
       </div>
-    </nav>
 
-    <div class="container">
-      <div class="heading">
-        <h1>Hi, I'm Kurt Adriaanse and <br />this is My Story...</h1>
-      </div>
+      <footer>
+        <p>© 2023 Kurt Adriaanse. All Rights Reserved.</p>
 
-      <section>
-        <div class="paragraph">
-          <p>
-            I'm a tech enthusiast, a web and software developer with a passion
-            for exploring new programming languages and technologies. With two
-            years of experience under my belt, I've got my hands on a wide range
-            of tech skills, including SQL, HTML, CSS, JavaScript, Python, Data
-            Analyst, and Git. I'm always on the lookout for new and exciting
-            tools and techniques to sharpen my programming expertise. While my
-            core programming skills lie in SQL, HTML, CSS, JavaScript, Python,
-            Data Analyst, and Git, I'm also diving headfirst into learning Java
-            and Angular. I believe that staying up-to-date with the latest
-            trends and best practices is key to staying ahead in the tech world.
-            My enthusiasm for learning is driven by my eagerness to expand my
-            knowledge and hone my programming skills. Starting my career as a
-            Junior IT Associate and System Administration intern at CapaCiti,
-            which is now known as UVU Africa, I gained valuable experience in
-            development, troubleshooting, and system administration. My work
-            there helped me understand the importance of being a team player,
-            communication, and problem-solving. I take pride in the skills I've
-            acquired, and I always strive to continue learning and expanding my
-            knowledge base. I believe that my love for technology is reflected
-            in my work, and I'm excited to continue learning and growing in this
-            ever-evolving field.
-          </p>
-        </div>
-      </section>
-
-      <div class="nxt-btn">
-        <a href="qa.html">
-          <button><i class="fa-solid fa-forward"></i></button>
-        </a>
-      </div>
-    </div>
-
-    <footer>
-      <p>© 2023 Kurt Adriaanse. All Rights Reserved.</p>
-
-      <div id="wrapper">
-        <div class="wrapper">
-          <div class="button">
-            <div class="icon">
-              <a href="#"> <i class="fa-solid fa-envelope"></i></a>
+        <div id="wrapper">
+          <div class="wrapper">
+            <div class="button">
+              <div class="icon">
+                <a href="mailto:kurtadriaanse18@gmail.com">
+                  <i class="fa-solid fa-envelope"></i
+                ></a>
+              </div>
+              <span>Email</span>
             </div>
-            <span>Email</span>
-          </div>
 
-          <div class="button">
-            <div class="icon">
-              <a href="#"> <i class="fa-solid fa-phone"></i></a>
+            <div class="button">
+              <div class="icon">
+                <a href="#"> <i class="fa-solid fa-phone"></i></a>
+              </div>
+              <span>065 509 8771</span>
             </div>
-            <span>Phone No.</span>
-          </div>
 
-          <div class="button">
-            <div class="icon">
-              <a
-                href="https://www.linkedin.com/feed/?trk=homepage-basic_google-one-tap-submit"
-              >
-                <i class="fab fa-2x fa-linkedin"></i
-              ></a>
+            <div class="button">
+              <div class="icon">
+                <a
+                  href="https://www.linkedin.com/feed/?trk=homepage-basic_google-one-tap-submit"
+                >
+                  <i class="fab fa-2x fa-linkedin"></i
+                ></a>
+              </div>
+              <span>LinkdIn</span>
             </div>
-            <span>LinkdIn</span>
-          </div>
 
-          <div class="button">
-            <div class="icon">
-              <a href="https://github.com/Kurt-A21">
-                <i class="fab fa-2x fa-github"></i
-              ></a>
+            <div class="button">
+              <div class="icon">
+                <a href="https://github.com/Kurt-A21">
+                  <i class="fab fa-2x fa-github"></i
+                ></a>
+              </div>
+              <span>Github</span>
             </div>
-            <span>Github</span>
-          </div>
 
-          <div class="button">
-            <div class="icon">
-              <a
-                href="https://padlet.com/Kurt_A/kurt-intern-profile-uqoqixf5wqieik18"
-              >
-                <i class="fas fa-hat-wizard"></i
-              ></a>
+            <div class="button">
+              <div class="icon">
+                <a
+                  href="https://padlet.com/Kurt_A/kurt-intern-profile-uqoqixf5wqieik18"
+                >
+                  <i class="fas fa-hat-wizard"></i
+                ></a>
+              </div>
+              <span>Padlet</span>
             </div>
-            <span>Padlet</span>
           </div>
         </div>
-      </div>
-    </footer>
+      </footer>
 
     <script src="Script/topnav_functionality.js"></script>
   </body>

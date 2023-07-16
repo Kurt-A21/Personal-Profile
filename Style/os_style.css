@@ -5,3 +5,7 @@
     font-family: 'Lobster', cursive;
     text-align: center;
   }
+
+  .outer-container {
+    flex-grow: 1;
+  }
