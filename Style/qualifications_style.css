@@ -5,3 +5,110 @@
     font-family: 'Lobster', cursive;
     text-align: center;
   }
+  body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+  }
+
+  h1 {
+    text-align: center;
+  }
+
+  .timeline {
+    position: relative;
+    max-width: 800px;
+    margin: 0 auto;
+  }
+
+  .timeline::after {
+    content: '';
+    position: absolute;
+    width: 2px;
+    background-color: #444;
+    top: 0;
+    bottom: 0;
+    left: 50%;
+    margin-left: -1px;
+  }
+
+  .timeline-item {
+    position: relative;
+    margin-bottom: 50px;
+    border-style: solid;
+    border-color: orange;
+  }
+
+  .timeline-item::after {
+    content: '';
+    position: absolute;
+    width: 16px;
+    height: 16px;
+    background-color: #444;
+    border-radius: 50%;
+    left: 50%;
+    bottom: -8px;
+    margin-left: -8px;
+    border-style: solid;
+  }
+
+  .timeline-content {
+    position: relative;
+    margin-left: 30px;
+    padding: 20px;
+    background-color: #f0f0f0;
+    border-radius: 6px;
+  }
+
+  .timeline-content h3 {
+    margin-top: 0;
+  }
+
+  .timeline-content p {
+    margin: 10px 0;
+  }
+
+  .timeline-item:nth-child(even) .timeline-content {
+    margin-left: 0;
+    margin-right: 30px;
+  }
+
+  .timeline-item:nth-child(even) .timeline-content::before {
+    content: '';
+    position: absolute;
+    top: 20px;
+    left: -10px;
+    border-width: 10px;
+    border-style: solid;
+    border-color: transparent #f0f0f0 transparent transparent;
+  }
+
+  /* qualifications */
+  .container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+    height: 100vh; 
+  }
+  
+  .certificate-box {
+    width: 200px;
+    margin: 10px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    text-align: center;
+  }
+  
+  .certificate-box img {
+    width: 150px;
+    height: 150px;
+  }
+  
+  .certificate-box h3 {
+    margin: 10px 0;
+  }
+  
+  .certificate-box p {
+    margin: 0;
+  }
