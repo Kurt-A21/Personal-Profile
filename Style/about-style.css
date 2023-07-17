@@ -1,7 +1,171 @@
-.about-img img{
-    height: auto;
-    width: 50%;
-    padding-top: 30px;
-    padding-left: 10px;
-    border-radius: 8px;
+.about-body {
+  display: flex;
+  justify-content: space-around;
+  border-color: #fff;
 }
+
+.about-body > .about {
+  border-color: #fff;
+  margin: 10px;
+  padding: 15px;
+}
+
+.about h2 {
+  font-size: 25px;
+}
+
+.about p {
+  font-size: 13px;
+}
+
+.about-img{
+  height: auto;
+  width: auto;
+  border-radius: 8px;
+}
+
+.about-img img{
+    padding-top: 50px;
+    padding-bottom: 30px;
+    padding-left: 10px;  
+}
+
+@media (max-width: 1200px) {
+    .about-img img {
+      display: none;
+    }
+
+    .about{
+        text-align: center;
+    }
+  }
+  
+/* about nav */
+hr {
+  border: none; 
+  border-top: 1px solid #000; 
+}
+
+.about-nav {
+  display: flex;
+  justify-content: space-between;
+}
+
+.about-nav .navbar-item {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  font-size: 13px;
+  transition: 0.4s all;
+}
+
+.about-nav .navbar-item:hover {
+  color: orange;
+  cursor: pointer;
+}
+
+.navbar-item {
+  cursor: pointer;
+  padding: 5px 10px;
+}
+
+.dropdown {
+  display: none;
+  background-color: #f9f9f9;
+  padding: 10px;
+}
+
+.dropdown-item {
+  padding: 5px;
+}
+
+/* items */
+
+.block2 {
+  display: block;
+  margin: auto;
+  padding-right: 100px;
+}
+
+.block2 > div {
+  display: flex;
+  flex-direction: column;
+}
+
+/*Progress Bar by skills*/
+
+#myProgress {
+  width: 100%;
+  background-color: #ddd;
+}
+/*Java*/
+#myBar {
+  width: 65%;
+  height: 20px;
+  background-color: #e75480;
+  text-align: center;
+  line-height: 20px;
+  color: white;
+}
+
+/*Python*/
+#myBar {
+  width: 65%;
+  height: 20px;
+  background-color: #e75480;
+  text-align: center;
+  line-height: 20px;
+  color: white;
+}
+
+/*Javascript*/
+#myBar1 {
+  width: 40%;
+  height: 20px;
+  background-color: #e75480;
+  text-align: center;
+  line-height: 20px;
+  color: white;
+}
+
+/*SQL*/
+#myBar2 {
+  width: 60%;
+  height: 20px;
+  background-color: #e75480;
+  text-align: center;
+  line-height: 20px;
+  color: white;
+}
+
+/*SQLite*/
+#myBar3 {
+  width: 70%;
+  height: 20px;
+  background-color: #e75480;
+  text-align: center;
+  line-height: 20px;
+  color: white;
+}
+
+/*HTML*/
+#myBar4 {
+  width: 80%;
+  height: 20px;
+  background-color: #e75480;
+  text-align: center;
+  line-height: 20px;
+  color: white;
+}
+
+/*CSS*/
+#myBar5 {
+  width: 70%;
+  height: 20px;
+  background-color: #e75480;
+  text-align: center;
+  line-height: 20px;
+  color: white;
+}
+
+/*end of progress bar*/

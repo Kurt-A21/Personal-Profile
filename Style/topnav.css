@@ -18,7 +18,7 @@ nav {
   align-items: center;
 }
 
-.navbar a {
+.navbar .menu a {
   color: black;
   padding: 14px 16px;
   text-decoration: none;
@@ -26,7 +26,7 @@ nav {
   transition: 0.4s all;
 }
 
-.navbar a:hover {
+.navbar .menu a:hover {
   color: orange;
   cursor: pointer;
 }
@@ -34,11 +34,16 @@ nav {
 .logo {
   float: right;
   margin-right: 20px;
-  color: #FAF8FF;
+  color: orange;
   font-weight: bold;
   text-decoration: none;
   padding: 14px 16px;
   font-size: 17px;
+  transition: 0.4s all;
+}
+
+.logo:hover{
+  color: black;
 }
 
 .menu {

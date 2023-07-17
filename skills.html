@@ -6,6 +6,8 @@
     <link rel="stylesheet" href="Style/skill_style.css" />
     <link rel="stylesheet" href="Style/topnav.css" />
     <link rel="stylesheet" href="Style/footer.css" />
+    <link rel="stylesheet" href="Style/underline.css" />
+
     <!-- google font -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -18,45 +20,50 @@
     <link rel="stylesheet" href="fonts/css/all.css" />
     <!-- font end -->
     <title>Skills Matrix</title>
-    <link rel="icon" type="image/x-icon" href="/images/letter-k.png">
+    <link rel="icon" type="image/x-icon" href="/images/letter-k.png" />
   </head>
 
   <body>
     <nav>
-          <div class="navbar">
-            <a class="logo" href="/index.html">Crafting My<br />Professional Narrative</a>
+      <div class="navbar">
+        <a class="logo" href="/index.html"
+          >Crafting My<br />Professional Narrative</a
+        >
 
-            <ul class="menu">
-              <li><a href="/qa.html" id="justify">Qualification</a></li>
-              <li><a href="/os.html">OS, IDEs and Programming Languages</a></li>
-              <li><a href="/skills.html">Skills Matrix</a></li>
-              <li><a href="/contact.html">Contact me</a></li>
-            </ul>
-
-            <div id="myNav" class="overlay">
-              <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">
-                <i class="fa-solid fa-x"></i
-              ></a>
-              <div class="overlay-content">
-                <a href="/qa.html">Qualification</a>
-                <a href="/os.html">OS, IDEs and Programming Languages</a>
-                <a href="/skills.html">Skills Matrix</a>
-                <a href="/contact.html">Contact me</a>
-              </div>
-            </div>
-
-            <div class="menu-icon">
-              <a href="javascript:void(0);" class="icon" onclick="openNav()">
-                <i class="fa-sharp fa-solid fa-bars"></i>
-              </a>
-
-            </div>
+        <ul class="menu">
+          <div class="line">
+            <li><a href="/index.html">About me</a></li>
+            <span class="navlink-border"></span>
           </div>
-        </nav>
+          <div class="line">
+            <li><a href="/skills.html">Skills Matrix</a></li>
+            <span class="navlink-border"></span>
+          </div>
+          <div class="line">
+            <li><a href="/contact.html">Contact me</a></li>
+            <span class="navlink-border"></span>
+          </div>
+        </ul>
+        <div id="myNav" class="overlay">
+          <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">
+            <i class="fa-solid fa-x"></i
+          ></a>
+          <div class="overlay-content">
+            <a href="/index.html">About me</a>
+            <a href="/skills.html">Skills Matrix</a>
+            <a href="/contact.html">Contact me</a>
+          </div>
+        </div>
 
-    <div class="container">
-      
-    </div>
+        <div class="menu-icon">
+          <a href="javascript:void(0);" class="icon" onclick="openNav()">
+            <i class="fa-sharp fa-solid fa-bars"></i>
+          </a>
+        </div>
+      </div>
+    </nav>
+
+    <div class="container"></div>
 
     <footer>
       <p>© 2023 Kurt Adriaanse. All Rights Reserved.</p>
@@ -65,7 +72,9 @@
         <div class="wrapper">
           <div class="button">
             <div class="icon">
-              <a href="mailto:kurtadriaanse18@gmail.com"> <i class="fa-solid fa-envelope"></i></a>
+              <a href="mailto:kurtadriaanse18@gmail.com">
+                <i class="fa-solid fa-envelope"></i
+              ></a>
             </div>
             <span>Email</span>
           </div>
