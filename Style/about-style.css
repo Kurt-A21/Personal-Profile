@@ -67,6 +67,7 @@ hr {
 .navbar-item {
   cursor: pointer;
   padding: 5px 10px;
+  font-size: 15px;
 }
 
 .dropdown {
@@ -93,79 +94,180 @@ hr {
 }
 
 /*Progress Bar by skills*/
-
+.title {
+  font-size: 12px;
+}
 #myProgress {
   width: 100%;
   background-color: #ddd;
+  border-radius: 5px;
 }
-/*Java*/
+
+/*Windows*/
 #myBar {
-  width: 65%;
-  height: 20px;
-  background-color: #e75480;
+  width: 90%;
+  height: 13px;
+  background-color: orange;
   text-align: center;
-  line-height: 20px;
+  line-height: 13px;
   color: white;
+  border-radius: 5px;
+}
+
+/*MAC*/
+#myBar1 {
+  width: 70%;
+  height: 15px;
+  background-color: orange;
+  text-align: center;
+  line-height: 15px;
+  color: white;
+  border-radius: 5px;
+}
+
+/*VScode*/
+#myBar2 {
+  width: 90%;
+  height: 15px;
+  background-color: orange;
+  text-align: center;
+  line-height: 15px;
+  color: white;
+  border-radius: 5px;
+}
+
+/*InteeliJ*/
+#myBar3 {
+  width: 60%;
+  height: 15px;
+  background-color: orange;
+  text-align: center;
+  line-height: 15px;
+  color: white;
+  border-radius: 5px;
+}
+
+/*Pycharm*/
+#myBar4 {
+  width: 70%;
+  height: 15px;
+  background-color: orange;
+  text-align: center;
+  line-height: 15px;
+  color: white;
+  border-radius: 5px;
+}
+
+/*Sublim Text*/
+#myBar5 {
+  width: 80%;
+  height: 15px;
+  background-color: orange;
+  text-align: center;
+  line-height: 15px;
+  color: white;
+  border-radius: 5px;
+}
+
+/* PL */
+/*Java*/
+#myBar6 {
+  width: 60%;
+  height: 15px;
+  background-color: orange;
+  text-align: center;
+  line-height: 15px;
+  color: white;
+  border-radius: 5px;
 }
 
 /*Python*/
-#myBar {
-  width: 65%;
-  height: 20px;
-  background-color: #e75480;
-  text-align: center;
-  line-height: 20px;
-  color: white;
-}
-
-/*Javascript*/
-#myBar1 {
-  width: 40%;
-  height: 20px;
-  background-color: #e75480;
-  text-align: center;
-  line-height: 20px;
-  color: white;
-}
-
-/*SQL*/
-#myBar2 {
-  width: 60%;
-  height: 20px;
-  background-color: #e75480;
-  text-align: center;
-  line-height: 20px;
-  color: white;
-}
-
-/*SQLite*/
-#myBar3 {
+#myBar7 {
   width: 70%;
-  height: 20px;
-  background-color: #e75480;
+  height: 15px;
+  background-color: orange;
   text-align: center;
-  line-height: 20px;
+  line-height: 15px;
   color: white;
+  border-radius: 5px;
 }
 
-/*HTML*/
-#myBar4 {
+/*Js*/
+#myBar8 {
+  width: 50%;
+  height: 15px;
+  background-color: orange;
+  text-align: center;
+  line-height: 15px;
+  color: white;
+  border-radius: 5px;
+}
+
+/*Html*/
+#myBar9 {
   width: 80%;
-  height: 20px;
-  background-color: #e75480;
+  height: 15px;
+  background-color: orange;
   text-align: center;
-  line-height: 20px;
+  line-height: 15px;
   color: white;
+  border-radius: 5px;
 }
 
-/*CSS*/
-#myBar5 {
+/*Css*/
+#myBar10 {
   width: 70%;
-  height: 20px;
-  background-color: #e75480;
+  height: 15px;
+  background-color: orange;
   text-align: center;
-  line-height: 20px;
+  line-height: 15px;
   color: white;
+  border-radius: 5px;
 }
+
+/*Spring*/
+#myBar11 {
+  width: 50%;
+  height: 15px;
+  background-color: orange;
+  text-align: center;
+  line-height: 15px;
+  color: white;
+  border-radius: 5px;
+}
+
+/*Django*/
+#myBar12 {
+  width: 40%;
+  height: 15px;
+  background-color: orange;
+  text-align: center;
+  line-height: 15px;
+  color: white;
+  border-radius: 5px;
+}
+
+/*sql*/
+#myBar13 {
+  width: 70%;
+  height: 15px;
+  background-color: orange;
+  text-align: center;
+  line-height: 15px;
+  color: white;
+  border-radius: 5px;
+}
+
+/*git*/
+#myBar14 {
+  width: 70%;
+  height: 15px;
+  background-color: orange;
+  text-align: center;
+  line-height: 15px;
+  color: white;
+  border-radius: 5px;
+}
+
 
 /*end of progress bar*/
